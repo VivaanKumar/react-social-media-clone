@@ -169,7 +169,7 @@ export default function Home() {
     <div className="home">
       <ToastContainer />
       <nav className="navbar">
-        <p>React Social</p>
+        <p>Disarraygi</p>
         {user ? (
           <img src={user?.photoURL} className="profilePicture"/>
         ) : <Button signIn={signIn}/>}
